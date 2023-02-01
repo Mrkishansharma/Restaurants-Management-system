@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Masai Restauran Management</title>
+    <style>
+      /* All Your Css goes here  */
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <h2>Masai Restauran Management</h2>
+      <div>
+        <a href="./index.html">
+          <h2>Home</h2>
+        </a>
+        <a href="./dashboard.html">
+          <h2>Dashboard</h2>
+        </a>
+        <a href="./favourites.html">
+          <h2>Favourites</h2>
+        </a>
+      </div>
+    </div> 
+    <div id="create">
+      <h1>Add New Item On Menu</h1>
+      <form>
+        <input type="text" id="name" placeholder="Item Name" />
+        <textarea
+          id="desc"
+          placeholder="Description"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <select id="type">
+          <option value="">Food Type</option>
+          <option value="Indian">Indian</option>
+          <option value="French">French</option>
+          <option value="Chinese">Chinese</option>
+        </select>
+        <select id="category">
+          <option value="">Select Category</option>
+          <option value="Veg">Veg</option>
+          <option value="Non-Veg">Non-Veg</option>
+        </select>
+        <input type="number" id="price" placeholder="Price" />
+        <input type="submit" value="Create" />
+      </form>
+    </div>
+  </body>
+  <script src="./Scripts/index.js"></script>
+</html>
